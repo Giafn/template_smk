@@ -1,0 +1,127 @@
+/* Biru = #104f87
+Kuning = #ffdd01
+putih = #fefffe */
+
+.bg-biru {
+    background-color: #104f87;
+}
+
+.bg-kuning {
+    background-color: #ffdd01;
+}
+
+.bg-putih {
+    background-color: #fefffe;
+}
+
+.text-biru {
+    color: #104f87;
+}
+
+.text-kuning {
+    color: #ffdd01;
+}
+
+.text-putih {
+    color: #fefffe;
+}
+
+.border-biru {
+    border-color: #104f87;
+}
+
+.border-kuning {
+    border-color: #ffdd01;
+}
+
+.border-putih {
+    border-color: #fefffe;
+}
+
+close-menu,
+.open-menu {
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+.open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.close-menu {
+  top: 20px;
+  right: 20px;
+}
+
+#check {
+  display: none;
+}
+
+.nav-item {
+  margin-left: 0.25rem/* 4px */;
+  margin-right: 0.25rem/* 4px */;
+}
+
+.nav-item.actived {
+  background-color: #ffdd01;
+  color: #104f87;
+}
+
+.actived {
+  background-color: #ffdd01;
+  color: #104f87;
+}
+.btn-cta:hover {
+  background-color: white;
+  color: #104f87;
+}
+
+.embed-wrapper iframe {
+  border-radius: 20px;
+}
+
+.iframe-wrapper iframe {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 1024px) {
+  .menu {
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 53%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: #104f87;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  .menu .nav-item a {
+    font-size: 15px;
+  }
+
+  .close-menu,
+  .open-menu {
+    display: block;
+  }
+
+  #check:checked ~ .menu {
+    right: 0;
+  }
+
+  .nav-item {
+    margin: 0.5rem 0;
+  }
+}
