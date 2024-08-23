@@ -1,5 +1,5 @@
 <nav class="bg-biru text-white w-full z-20 top-0 left-0 border-gray-200 sticky" style="border-bottom: 5px solid #ffdd01;">
-    <ul class="navigation max-w-[90vw] flex flex-wrap justify-between items-center relative mx-auto lg:py-8 py-2">
+    <ul class="navigation max-w-[90vw] flex flex-wrap gap-4 justify-between items-center relative mx-auto lg:py-8 py-2">
         <input type="checkbox" id="check" />
         <div class="flex items-center gap-2 lg:gap-4">
             <img src="/img/logo.png" alt="192.168.43.210logo" class="h-10 lg:h-16">

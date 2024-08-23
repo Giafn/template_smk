@@ -17,7 +17,7 @@
 </div>
 
 <div class="w-full bg-putih lg:pt-10 lg:pb-5 lg:px-36 px-5 py-5">
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-5">
         <div class="col-span-1 bg-biru text-white p-8 rounded-3xl">
             <h1 class="text-xl font-bold text-kuning">Sejarah</h1>
             <p class="text-sm mt-3">SMK Widya Dirgantara berdiri sejak tahun 2000 dan telah meluluskan ribuan siswa yang berkualitas.</p>
@@ -58,9 +58,9 @@
     <div class="mb-10 text-center">
         <h2 class="text-2xl lg:text-3xl font-bold text-biru">Sambutan Kepala Sekolah</h2>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div class="col-span-1 flex justify-center items-center">
-            <img src="/img/guru/payayat.png" alt="logo" style="width: 60%;" class="rounded-3xl shadow-md">
+            <img src="/img/guru/payayat.png" alt="logo" class="rounded-3xl shadow-md lg:w-4/6 md:w-5/6 w-full">
         </div>
         <div class="col-span-1">
             <p class="text-md text-gray-600">SMK Widya Dirgantara adalah sekolah terbaik di Indonesia yang berdiri sejak tahun 2000. SMK Widya Dirgantara memiliki program studi yang berkualitas dan berstandar nasional. SMK Widya Dirgantara memiliki fasilitas yang lengkap dan modern. SMK Widya Dirgantara memiliki tenaga pengajar yang berkualitas dan berpengalaman. SMK Widya Dirgantara memiliki program kegiatan eks Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima debitis sunt itaque porro quod, explicabo nobis eius iste non aut iure odit pariatur cupiditate asperiores eum, labore atque ab at, vitae deserunt est veniam sapiente animi nihil. Vel sit laudantium necessitatibus nemo itaque perferendis deserunt natus asperiores aut harum velit, hic vitae enim esse odio iusto recusandae beatae debitis facilis fuga autem. Cupiditate animi soluta ex totam, est quam nam vel suscipit eius quis, repellendus asperiores, nemo temporibus recusandae aspernatur doloribus necessitatibus. Eum non, molestias facilis saepe velit maxime facere rem. Eius eos non fugit. Praesentium mollitia ex ab ullam.
@@ -99,7 +99,7 @@
         <h2 class="text-2xl lg:text-3xl font-bold text-biru">Fasilitas SMK Widya Dirgantara</h2>
     </div>
     <div class="flex justify-center flex-wrap gap-5">
-        <div class="flex justify-center lg:w-3/12 w-full text-white p-5 rounded-3xl" style="background: linear-gradient(210deg, #22b2ba, #104e86);">
+        <div class="flex justify-center lg:w-3/12 md:w-2/5 w-full text-white p-5 rounded-3xl" style="background: linear-gradient(210deg, #22b2ba, #104e86);">
             <div>
                 <img src="https://www.tangerangkota.go.id/files/berita/40075perpustakaan-daerah-kota-tangerang-sediakan-beragam-ribuan-koleksi-buku-40075.jpeg" alt="Perpustakaan" class="w-full h-48 lg:h-96 object-cover rounded-3xl mb-3">
                 <h1 class="text-xl font-bold text-kuning">Perpustakaan</h1>
@@ -107,7 +107,7 @@
                 <a href="/to_be_created" class="text-sm text-kuning mt-3 inline-flex items-center">Lihat Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
             </div>
         </div>
-        <div class="flex justify-center lg:w-3/12 w-full text-white p-5 rounded-3xl" style="background: linear-gradient(210deg, #22b2ba, #104e86);">
+        <div class="flex justify-center lg:w-3/12 md:w-2/5 w-full text-white p-5 rounded-3xl" style="background: linear-gradient(210deg, #22b2ba, #104e86);">
             <div>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR58HetTduVNmOUOsP-RhmIVd04XIyVDRaeAQ&s" alt="Perpustakaan" class="w-full h-48 lg:h-96 object-cover rounded-3xl mb-3">
                 <h1 class="text-xl font-bold text-kuning">Laboratorium</h1>
@@ -115,7 +115,7 @@
                 <a href="/to_be_created" class="text-sm text-kuning mt-3 inline-flex items-center">Lihat Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
             </div>
         </div>
-        <div class="flex justify-center lg:w-3/12 w-full text-white p-5 rounded-3xl" style="background: linear-gradient(210deg, #22b2ba, #104e86);">
+        <div class="flex justify-center lg:w-3/12 md:w-2/5 w-full text-white p-5 rounded-3xl" style="background: linear-gradient(210deg, #22b2ba, #104e86);">
             <div>
                 <img src="https://cdn.antaranews.com/cache/1200x800/2022/11/01/Picsart_22-11-01_12-05-50-664.jpg" alt="Perpustakaan" class="w-full h-48 lg:h-96 object-cover rounded-3xl mb-3">
                 <h1 class="text-xl font-bold text-kuning">Kantin</h1>
@@ -132,7 +132,7 @@
     <div class="mb-10 text-center">
         <h2 class="text-2xl lg:text-3xl font-bold text-kuning">Daftar Guru SMK Widya Dirgantara</h2>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 mb-5">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-5">
         <div class="col-span-1 bg-putih text-gray-500 p-4 rounded-3xl border border-gray-200 shadow-md flex flex-col">
             <img src="/img/guru/pa_teguh.jpg" alt="gambar" class="w-full h-48 lg:h-96 object-cover rounded-3xl mb-3">
             <div class="flex-1">
@@ -178,7 +178,7 @@
         <div class="mb-10 text-center">
             <h2 class="text-2xl lg:text-3xl font-bold text-biru">Informasi dan Berita Terbaru</h2>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
             <!-- Card 1 -->
             <div class="col-span-1 lg:col-span-2 bg-white text-gray-500 p-4 rounded-md border border-gray-200 shadow-md flex flex-col">
                 <img src="/img/slider/juaraPramuka.jpg" alt="gambar" class="w-full h-48 lg:h-96 object-cover rounded-md mb-3">
